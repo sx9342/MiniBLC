@@ -1,0 +1,45 @@
+# Python 缓存
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 虚拟环境
+.venv/
+venv/
+env/
+ENV/
+
+# Python 打包产物
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# 测试与覆盖率
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# 类型检查与代码检查缓存
+.mypy_cache/
+.ruff_cache/
+.pytype/
+
+# 日志与临时文件
+*.log
+*.tmp
+*.bak
+
+# 环境变量与敏感配置
+.env
+.env.*
+
+# IDE 配置
+.idea/
+.vscode/
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+Desktop.ini
